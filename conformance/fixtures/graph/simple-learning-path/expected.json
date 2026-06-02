@@ -1,0 +1,9 @@
+{
+  "nodes": 4,
+  "edges": 3,
+  "requiredEdges": [
+    "LP-9001->CRS-9001:contains",
+    "CRS-9001->fixture-skill:teaches",
+    "CRS-9001->BADGE-9001:awards"
+  ]
+}

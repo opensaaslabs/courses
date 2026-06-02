@@ -1,0 +1,14 @@
+name: Invalid Course Missing ID
+version: 0.1.0
+status: draft
+level: foundation
+provider: OpenSaaSLabs
+outcomes:
+  - This fixture must fail validation.
+modules:
+  - MOD-9999
+governance:
+  owner: OpenSaaSLabs
+  reviewers: []
+  license: CC-BY-4.0
+  qualityGate: in-progress

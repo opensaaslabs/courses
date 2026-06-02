@@ -1,0 +1,26 @@
+id: CRS-9999
+name: Minimal Valid Course
+version: 0.1.0
+status: draft
+level: foundation
+durationHours: 1
+provider: OpenSaaSLabs
+description: Minimal valid course fixture.
+prerequisites: []
+outcomes:
+  - Explain the minimal course structure.
+skills:
+  - fixture-skill
+modules:
+  - MOD-9999
+labs:
+  - LAB-9999
+assessments:
+  - ASM-9999
+governance:
+  owner: OpenSaaSLabs
+  reviewers: []
+  license: CC-BY-4.0
+  qualityGate: in-progress
+  trustScore: 50
+  qualityScore: 50
