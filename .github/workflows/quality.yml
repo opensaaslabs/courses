@@ -1,0 +1,26 @@
+name: Validate Academy Quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml jsonschema
+      - name: Run reference validation implementation
+        run: python tools/reference/python/validate.py
+      - name: Run reference graph validation implementation
+        run: python tools/reference/python/graph_validate.py
+      - name: Run reference quality scoring implementation
+        run: python tools/reference/python/quality_score.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: academy-quality
+          path: exports/analytics/
