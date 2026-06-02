@@ -1,0 +1,43 @@
+id: CRS-0001
+name: Agentic Engineering Foundations
+version: 0.1.0
+status: draft
+level: foundation
+durationHours: 12
+provider: OpenSaaSLabs
+description: A foundation course for understanding agentic systems, governed agent workflows, tool use, evaluation, safety, and operations.
+prerequisites:
+  - Basic software or product understanding
+outcomes:
+  - Define agents, tools, memory, plans, workflows, and human approval.
+  - Explain how agentic systems differ from traditional automation.
+  - Design a simple governed agent workflow.
+  - Identify core risks in agentic systems.
+  - Describe evaluation, observability, and lifecycle controls for agents.
+skills:
+  - agent-design
+  - agent-governance
+  - workflow-design
+  - ai-evaluation
+modules:
+  - MOD-0001
+  - MOD-0002
+  - MOD-0003
+labs:
+  - LAB-0001
+assessments:
+  - ASM-0001
+jsonld:
+  '@context': https://schema.org
+  '@type': Course
+  name: Agentic Engineering Foundations
+  provider:
+    '@type': Organization
+    name: OpenSaaSLabs
+governance:
+  owner: OpenSaaSLabs
+  reviewers: []
+  license: CC-BY-4.0
+  qualityGate: in-progress
+  trustScore: 50
+  qualityScore: 50

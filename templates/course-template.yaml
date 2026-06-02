@@ -1,0 +1,23 @@
+id: CRS-0000
+name: Course Name
+version: 0.1.0
+status: draft
+level: foundation
+durationHours: 0
+provider: OpenSaaSLabs
+description: Describe the course purpose, audience, and scope.
+prerequisites: []
+outcomes:
+  - Define measurable learner outcome.
+skills: []
+modules:
+  - MOD-0000
+labs: []
+assessments: []
+governance:
+  owner: OpenSaaSLabs
+  reviewers: []
+  license: CC-BY-4.0
+  qualityGate: not-started
+  trustScore: 0
+  qualityScore: 0

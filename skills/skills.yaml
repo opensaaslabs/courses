@@ -1,0 +1,13 @@
+skills:
+  - id: agent-design
+    name: Agent Design
+    domain: AI Engineering
+  - id: agent-governance
+    name: Agent Governance
+    domain: Governance
+  - id: workflow-design
+    name: Workflow Design
+    domain: Platform Engineering
+  - id: ai-evaluation
+    name: AI Evaluation
+    domain: AI Engineering
