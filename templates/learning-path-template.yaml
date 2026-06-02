@@ -1,0 +1,14 @@
+id: LP-0000
+name: Learning Path Name
+version: 0.1.0
+status: draft
+provider: OpenSaaSLabs
+description: Describe the learning path purpose and target learner.
+courses: []
+outcomes:
+  - Define path-level outcome.
+governance:
+  owner: OpenSaaSLabs
+  reviewers: []
+  license: CC-BY-4.0
+  qualityGate: not-started

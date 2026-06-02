@@ -1,0 +1,22 @@
+id: BADGE-0001
+name: Agentic Engineering Foundations
+version: 0.1.0
+status: draft
+issuer: OpenSaaSLabs
+description: Awarded to learners who demonstrate foundation-level understanding of governed agentic systems.
+criteria:
+  courses:
+    - CRS-0001
+  skills:
+    - agent-design
+    - agent-governance
+  assessments:
+    - ASM-0001
+evidenceRequired:
+  - Completed governed agent workflow design.
+  - Passed foundation assessment.
+governance:
+  owner: OpenSaaSLabs
+  reviewers: []
+  license: CC-BY-4.0
+  qualityGate: in-progress

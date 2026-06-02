@@ -1,0 +1,25 @@
+id: CERT-0001
+name: OpenSaaSLabs Certified Agentic Engineering Foundation
+version: 0.1.0
+status: draft
+issuer: OpenSaaSLabs
+level: foundation
+description: Foundation certification for learners who can explain, design, and review governed agentic engineering workflows.
+requiredCourses:
+  - CRS-0001
+requiredSkills:
+  - agent-design
+  - agent-governance
+  - workflow-design
+  - ai-evaluation
+requiredProjects:
+  - LAB-0001
+requiredAssessments:
+  - ASM-0001
+passingScore: 70
+validityMonths: 24
+governance:
+  owner: OpenSaaSLabs
+  reviewers: []
+  license: CC-BY-4.0
+  qualityGate: in-progress
