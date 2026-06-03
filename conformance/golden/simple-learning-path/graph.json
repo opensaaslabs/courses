@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    { "id": "LP-9001", "type": "LearningPath" },
+    { "id": "CRS-9001", "type": "Course" },
+    { "id": "fixture-skill", "type": "Concept" },
+    { "id": "BADGE-9001", "type": "Badge" }
+  ],
+  "edges": [
+    { "source": "LP-9001", "target": "CRS-9001", "type": "contains" },
+    { "source": "CRS-9001", "target": "fixture-skill", "type": "teaches" },
+    { "source": "CRS-9001", "target": "BADGE-9001", "type": "awards" }
+  ]
+}

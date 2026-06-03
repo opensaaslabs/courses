@@ -1,0 +1,15 @@
+{
+  "courses": [
+    {
+      "id": "CRS-9999",
+      "name": "Minimal Valid Course",
+      "status": "draft",
+      "version": "0.1.0"
+    }
+  ],
+  "learningPaths": [],
+  "badges": [],
+  "certifications": [],
+  "competencies": [],
+  "evidence": []
+}
